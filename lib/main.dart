@@ -45,20 +45,23 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(color: Colors.red, fontSize: 25),
                   children: const <TextSpan>[
                     TextSpan(
-                        text: 'phone ',
-                        style: TextStyle(color: Colors.blue, fontSize: 15)),
+                      text: 'phone ',
+                      style: TextStyle(color: Colors.blue, fontSize: 15),
+                    ),
                     TextSpan(
-                        text: 'name ',
-                        style: TextStyle(
-                            color: Colors.purpleAccent,
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold)),
+                      text: 'name ',
+                      style: TextStyle(
+                          color: Colors.purpleAccent,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold),
+                    ),
                     TextSpan(
-                        text: 'Your phone name',
-                        style: TextStyle(color: Colors.orange)),
+                      text: 'Your phone name',
+                      style: TextStyle(color: Colors.orange),
+                    ),
                   ],
                 ),
-              )
+              ),
             ],
           ),
         ),
